@@ -1,0 +1,1573 @@
+[
+  {
+    "name": "plunder patroll",
+    "averageRating": 1.8357142857142859,
+    "starter": 5,
+    "extender": 7
+  },
+  {
+    "name": "nekroz",
+    "averageRating": 1.8249999999999997,
+    "starter": 9,
+    "extender": 5
+  },
+  { "name": "amorphage", "averageRating": 1.73, "starter": 1, "extender": 0 },
+  {
+    "name": "witchcrafter",
+    "averageRating": 1.7058823529411762,
+    "starter": 4,
+    "extender": 8
+  },
+  {
+    "name": "mekk-knight",
+    "averageRating": 1.6800000000000002,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "@ignister",
+    "averageRating": 1.6388888888888888,
+    "starter": 5,
+    "extender": 11
+  },
+  {
+    "name": "lil-la",
+    "averageRating": 1.6333333333333335,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "dragonmaid",
+    "averageRating": 1.617647058823529,
+    "starter": 5,
+    "extender": 15
+  },
+  {
+    "name": "ancient warriors",
+    "averageRating": 1.6055555555555556,
+    "starter": 3,
+    "extender": 13
+  },
+  { "name": "ki-sikil", "averageRating": 1.6, "starter": 0, "extender": 4 },
+  {
+    "name": "myutant",
+    "averageRating": 1.5785714285714285,
+    "starter": 2,
+    "extender": 11
+  },
+  {
+    "name": "possessed",
+    "averageRating": 1.561111111111111,
+    "starter": 3,
+    "extender": 15
+  },
+  {
+    "name": "starry knight",
+    "averageRating": 1.5555555555555556,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "megalith",
+    "averageRating": 1.5454545454545454,
+    "starter": 2,
+    "extender": 8
+  },
+  {
+    "name": "infinitrack",
+    "averageRating": 1.5416666666666667,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "ursarctic",
+    "averageRating": 1.5384615384615385,
+    "starter": 3,
+    "extender": 11
+  },
+  {
+    "name": "s-force",
+    "averageRating": 1.5250000000000001,
+    "starter": 2,
+    "extender": 7
+  },
+  {
+    "name": "aleister the invoker",
+    "averageRating": 1.5,
+    "starter": 3,
+    "extender": 2
+  },
+  {
+    "name": "vendread",
+    "averageRating": 1.4894736842105263,
+    "starter": 6,
+    "extender": 12
+  },
+  {
+    "name": "despia",
+    "averageRating": 1.4857142857142858,
+    "starter": 1,
+    "extender": 2
+  },
+  {
+    "name": "impcantation",
+    "averageRating": 1.4714285714285715,
+    "starter": 1,
+    "extender": 6
+  },
+  {
+    "name": "galaxy-eyes",
+    "averageRating": 1.4666666666666668,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "drytron",
+    "averageRating": 1.4642857142857142,
+    "starter": 4,
+    "extender": 9
+  },
+  {
+    "name": "tri-brigade",
+    "averageRating": 1.4615384615384615,
+    "starter": 2,
+    "extender": 8
+  },
+  { "name": "kaiju", "averageRating": 1.45, "starter": 2, "extender": 10 },
+  {
+    "name": "burning abyss",
+    "averageRating": 1.425,
+    "starter": 3,
+    "extender": 15
+  },
+  {
+    "name": "adamancipator",
+    "averageRating": 1.421428571428571,
+    "starter": 8,
+    "extender": 5
+  },
+  {
+    "name": "prank-kids",
+    "averageRating": 1.4200000000000002,
+    "starter": 2,
+    "extender": 7
+  },
+  {
+    "name": "subterror",
+    "averageRating": 1.4176470588235293,
+    "starter": 5,
+    "extender": 12
+  },
+  {
+    "name": "time thief",
+    "averageRating": 1.4076923076923078,
+    "starter": 3,
+    "extender": 4
+  },
+  { "name": "fur hire", "averageRating": 1.4, "starter": 2, "extender": 8 },
+  { "name": "windwitch", "averageRating": 1.4, "starter": 1, "extender": 5 },
+  { "name": "ogdoadic", "averageRating": 1.4, "starter": 3, "extender": 7 },
+  {
+    "name": "hazy flame",
+    "averageRating": 1.3875,
+    "starter": 1,
+    "extender": 4
+  },
+  {
+    "name": "virtual world",
+    "averageRating": 1.3875,
+    "starter": 5,
+    "extender": 7
+  },
+  { "name": "battlewasp", "averageRating": 1.38, "starter": 1, "extender": 5 },
+  {
+    "name": "kozmo",
+    "averageRating": 1.3649999999999998,
+    "starter": 5,
+    "extender": 17
+  },
+  {
+    "name": "dinowrestler",
+    "averageRating": 1.3625,
+    "starter": 2,
+    "extender": 8
+  },
+  {
+    "name": "magistus",
+    "averageRating": 1.3500000000000003,
+    "starter": 2,
+    "extender": 6
+  },
+  { "name": "altergeist", "averageRating": 1.35, "starter": 2, "extender": 8 },
+  {
+    "name": "fire king",
+    "averageRating": 1.3444444444444443,
+    "starter": 3,
+    "extender": 6
+  },
+  {
+    "name": "edge imp",
+    "averageRating": 1.3333333333333333,
+    "starter": 1,
+    "extender": 6
+  },
+  {
+    "name": "springans",
+    "averageRating": 1.3083333333333336,
+    "starter": 3,
+    "extender": 3
+  },
+  {
+    "name": "performage",
+    "averageRating": 1.3083333333333333,
+    "starter": 1,
+    "extender": 5
+  },
+  {
+    "name": "world chalice",
+    "averageRating": 1.3,
+    "starter": 3,
+    "extender": 7
+  },
+  { "name": "unchained", "averageRating": 1.3, "starter": 0, "extender": 5 },
+  {
+    "name": "thunder dragon",
+    "averageRating": 1.2933333333333332,
+    "starter": 7,
+    "extender": 9
+  },
+  {
+    "name": "odd-eyes",
+    "averageRating": 1.2909090909090906,
+    "starter": 8,
+    "extender": 12
+  },
+  {
+    "name": "mathmech",
+    "averageRating": 1.285714285714286,
+    "starter": 3,
+    "extender": 4
+  },
+  {
+    "name": "crystron",
+    "averageRating": 1.2857142857142854,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "phantasm spiral",
+    "averageRating": 1.2714285714285711,
+    "starter": 3,
+    "extender": 6
+  },
+  { "name": "rokket", "averageRating": 1.27, "starter": 0, "extender": 1 },
+  {
+    "name": "rikka",
+    "averageRating": 1.2571428571428573,
+    "starter": 2,
+    "extender": 8
+  },
+  {
+    "name": "mermail",
+    "averageRating": 1.2555555555555555,
+    "starter": 4,
+    "extender": 8
+  },
+  {
+    "name": "magikey",
+    "averageRating": 1.2555555555555555,
+    "starter": 4,
+    "extender": 5
+  },
+  {
+    "name": "sylvan",
+    "averageRating": 1.2549999999999997,
+    "starter": 17,
+    "extender": 7
+  },
+  {
+    "name": "fluffal",
+    "averageRating": 1.2533333333333334,
+    "starter": 4,
+    "extender": 6
+  },
+  { "name": "eldlich", "averageRating": 1.25, "starter": 0, "extender": 1 },
+  {
+    "name": "noble knight",
+    "averageRating": 1.2499999999999998,
+    "starter": 10,
+    "extender": 13
+  },
+  {
+    "name": "noble arms",
+    "averageRating": 1.2333333333333336,
+    "starter": 1,
+    "extender": 4
+  },
+  {
+    "name": "magical musket",
+    "averageRating": 1.2333333333333334,
+    "starter": 2,
+    "extender": 9
+  },
+  { "name": "endymion", "averageRating": 1.225, "starter": 2, "extender": 2 },
+  {
+    "name": "danger!",
+    "averageRating": 1.2058823529411764,
+    "starter": 3,
+    "extender": 10
+  },
+  {
+    "name": "blaze accelerator",
+    "averageRating": 1.2,
+    "starter": 1,
+    "extender": 3
+  },
+  { "name": "stigmatika", "averageRating": 1.2, "starter": 0, "extender": 2 },
+  {
+    "name": "simorgh",
+    "averageRating": 1.192307692307692,
+    "starter": 3,
+    "extender": 4
+  },
+  {
+    "name": "generaider",
+    "averageRating": 1.1875,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "destruction sword",
+    "averageRating": 1.1818181818181819,
+    "starter": 3,
+    "extender": 9
+  },
+  {
+    "name": "dream mirror",
+    "averageRating": 1.18125,
+    "starter": 2,
+    "extender": 9
+  },
+  {
+    "name": "tindangle",
+    "averageRating": 1.1800000000000002,
+    "starter": 3,
+    "extender": 3
+  },
+  {
+    "name": "solfachord",
+    "averageRating": 1.1785714285714286,
+    "starter": 4,
+    "extender": 5
+  },
+  {
+    "name": "predaplant",
+    "averageRating": 1.1764705882352942,
+    "starter": 5,
+    "extender": 8
+  },
+  { "name": "knightmare", "averageRating": 1.175, "starter": 0, "extender": 2 },
+  {
+    "name": "abyss actor",
+    "averageRating": 1.1749999999999998,
+    "starter": 4,
+    "extender": 3
+  },
+  {
+    "name": "amazement",
+    "averageRating": 1.1714285714285713,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "predap",
+    "averageRating": 1.1714285714285713,
+    "starter": 3,
+    "extender": 5
+  },
+  {
+    "name": "triamid",
+    "averageRating": 1.1666666666666667,
+    "starter": 2,
+    "extender": 3
+  },
+  {
+    "name": "dogmatika",
+    "averageRating": 1.1500000000000001,
+    "starter": 1,
+    "extender": 9
+  },
+  { "name": "traptrix", "averageRating": 1.15, "starter": 3, "extender": 5 },
+  {
+    "name": "phantom knights",
+    "averageRating": 1.1400000000000001,
+    "starter": 0,
+    "extender": 5
+  },
+  {
+    "name": "salamangreat",
+    "averageRating": 1.1342857142857141,
+    "starter": 6,
+    "extender": 15
+  },
+  {
+    "name": "evil eye",
+    "averageRating": 1.1333333333333333,
+    "starter": 4,
+    "extender": 6
+  },
+  {
+    "name": "borrel",
+    "averageRating": 1.1285714285714288,
+    "starter": 0,
+    "extender": 5
+  },
+  {
+    "name": "elementsaber",
+    "averageRating": 1.1285714285714286,
+    "starter": 2,
+    "extender": 7
+  },
+  {
+    "name": "cubic",
+    "averageRating": 1.1058823529411765,
+    "starter": 7,
+    "extender": 13
+  },
+  {
+    "name": "the phantom knights",
+    "averageRating": 1.1058823529411765,
+    "starter": 6,
+    "extender": 8
+  },
+  { "name": "zexal", "averageRating": 1.1, "starter": 1, "extender": 3 },
+  { "name": "krawler", "averageRating": 1.1, "starter": 3, "extender": 0 },
+  {
+    "name": "psy-frame",
+    "averageRating": 1.0923076923076922,
+    "starter": 7,
+    "extender": 7
+  },
+  {
+    "name": "dual avatar",
+    "averageRating": 1.0909090909090908,
+    "starter": 2,
+    "extender": 4
+  },
+  {
+    "name": "hieratic",
+    "averageRating": 1.0833333333333333,
+    "starter": 7,
+    "extender": 12
+  },
+  {
+    "name": "super quant",
+    "averageRating": 1.0800000000000003,
+    "starter": 1,
+    "extender": 9
+  },
+  { "name": "ɐttraction", "averageRating": 1.08, "starter": 1, "extender": 1 },
+  {
+    "name": "lunalight",
+    "averageRating": 1.0785714285714285,
+    "starter": 1,
+    "extender": 7
+  },
+  {
+    "name": "tenyi",
+    "averageRating": 1.0769230769230769,
+    "starter": 0,
+    "extender": 6
+  },
+  { "name": "paleozoic", "averageRating": 1.075, "starter": 4, "extender": 1 },
+  {
+    "name": "jinzo",
+    "averageRating": 1.0300000000000002,
+    "starter": 1,
+    "extender": 3
+  },
+  { "name": "machina", "averageRating": 1.025, "starter": 5, "extender": 8 },
+  {
+    "name": "cyber dragon",
+    "averageRating": 1.0214285714285716,
+    "starter": 1,
+    "extender": 7
+  },
+  {
+    "name": "orcust",
+    "averageRating": 1.0125000000000002,
+    "starter": 2,
+    "extender": 8
+  },
+  { "name": "zefra", "averageRating": 1, "starter": 3, "extender": 5 },
+  {
+    "name": "nephthys",
+    "averageRating": 0.9944444444444446,
+    "starter": 4,
+    "extender": 9
+  },
+  {
+    "name": "performapal",
+    "averageRating": 0.9906976744186049,
+    "starter": 12,
+    "extender": 18
+  },
+  {
+    "name": "stardust",
+    "averageRating": 0.9863636363636363,
+    "starter": 2,
+    "extender": 11
+  },
+  {
+    "name": "d/d",
+    "averageRating": 0.9849056603773584,
+    "starter": 4,
+    "extender": 12
+  },
+  {
+    "name": "marincess",
+    "averageRating": 0.9842105263157894,
+    "starter": 2,
+    "extender": 13
+  },
+  {
+    "name": "heraldic beast",
+    "averageRating": 0.975,
+    "starter": 0,
+    "extender": 5
+  },
+  {
+    "name": "mayakashi",
+    "averageRating": 0.9470588235294118,
+    "starter": 1,
+    "extender": 6
+  },
+  {
+    "name": "metalfoes",
+    "averageRating": 0.9400000000000001,
+    "starter": 2,
+    "extender": 6
+  },
+  {
+    "name": "rose",
+    "averageRating": 0.9392156862745097,
+    "starter": 9,
+    "extender": 28
+  },
+  {
+    "name": "yosenju",
+    "averageRating": 0.938888888888889,
+    "starter": 4,
+    "extender": 5
+  },
+  {
+    "name": "armed dragon",
+    "averageRating": 0.9294117647058824,
+    "starter": 0,
+    "extender": 15
+  },
+  {
+    "name": "doll",
+    "averageRating": 0.9292682926829267,
+    "starter": 2,
+    "extender": 12
+  },
+  {
+    "name": "melffy",
+    "averageRating": 0.9222222222222223,
+    "starter": 0,
+    "extender": 5
+  },
+  { "name": "crusadia", "averageRating": 0.92, "starter": 3, "extender": 5 },
+  {
+    "name": "meklord",
+    "averageRating": 0.9166666666666666,
+    "starter": 3,
+    "extender": 9
+  },
+  {
+    "name": "r-genex",
+    "averageRating": 0.9111111111111112,
+    "starter": 6,
+    "extender": 2
+  },
+  {
+    "name": "tellarknight",
+    "averageRating": 0.9095238095238096,
+    "starter": 2,
+    "extender": 4
+  },
+  {
+    "name": "aroma",
+    "averageRating": 0.9076923076923078,
+    "starter": 2,
+    "extender": 3
+  },
+  {
+    "name": "vision hero",
+    "averageRating": 0.9000000000000001,
+    "starter": 3,
+    "extender": 11
+  },
+  { "name": "dinomist", "averageRating": 0.9, "starter": 2, "extender": 2 },
+  { "name": "when a", "averageRating": 0.9, "starter": 1, "extender": 0 },
+  { "name": "gadget", "averageRating": 0.9, "starter": 3, "extender": 5 },
+  {
+    "name": "darklord",
+    "averageRating": 0.8999999999999999,
+    "starter": 3,
+    "extender": 13
+  },
+  {
+    "name": "gouki",
+    "averageRating": 0.8961538461538463,
+    "starter": 0,
+    "extender": 9
+  },
+  {
+    "name": "true draco",
+    "averageRating": 0.8727272727272729,
+    "starter": 2,
+    "extender": 1
+  },
+  {
+    "name": "shiranui",
+    "averageRating": 0.8700000000000001,
+    "starter": 1,
+    "extender": 8
+  },
+  {
+    "name": "resonator",
+    "averageRating": 0.86875,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "kuriboh",
+    "averageRating": 0.8684210526315791,
+    "starter": 0,
+    "extender": 9
+  },
+  {
+    "name": "celestial",
+    "averageRating": 0.8666666666666667,
+    "starter": 2,
+    "extender": 9
+  },
+  {
+    "name": "dracoslayer",
+    "averageRating": 0.8666666666666666,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "deskbot",
+    "averageRating": 0.8636363636363636,
+    "starter": 2,
+    "extender": 1
+  },
+  {
+    "name": "bujin",
+    "averageRating": 0.863157894736842,
+    "starter": 6,
+    "extender": 24
+  },
+  {
+    "name": "the weather",
+    "averageRating": 0.8571428571428573,
+    "starter": 2,
+    "extender": 4
+  },
+  {
+    "name": "cyberdark",
+    "averageRating": 0.8545454545454546,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "artifact",
+    "averageRating": 0.8529411764705883,
+    "starter": 1,
+    "extender": 14
+  },
+  {
+    "name": "yang zing",
+    "averageRating": 0.8500000000000001,
+    "starter": 3,
+    "extender": 0
+  },
+  {
+    "name": "superheavy samurai",
+    "averageRating": 0.85,
+    "starter": 1,
+    "extender": 20
+  },
+  {
+    "name": "fossil",
+    "averageRating": 0.8307692307692307,
+    "starter": 3,
+    "extender": 3
+  },
+  {
+    "name": "puppet",
+    "averageRating": 0.8225806451612904,
+    "starter": 2,
+    "extender": 16
+  },
+  {
+    "name": "mythical beast",
+    "averageRating": 0.82,
+    "starter": 1,
+    "extender": 1
+  },
+  {
+    "name": "raidraptor",
+    "averageRating": 0.8108108108108106,
+    "starter": 4,
+    "extender": 16
+  },
+  {
+    "name": "infernoid",
+    "averageRating": 0.8100000000000002,
+    "starter": 0,
+    "extender": 9
+  },
+  {
+    "name": "spyral",
+    "averageRating": 0.8066666666666666,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "water dragon",
+    "averageRating": 0.7999999999999999,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "aquaactress",
+    "averageRating": 0.7999999999999999,
+    "starter": 3,
+    "extender": 1
+  },
+  {
+    "name": "dragunity",
+    "averageRating": 0.7921052631578945,
+    "starter": 7,
+    "extender": 14
+  },
+  {
+    "name": "fire fist",
+    "averageRating": 0.7892857142857144,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "world legacy",
+    "averageRating": 0.7852941176470588,
+    "starter": 6,
+    "extender": 16
+  },
+  {
+    "name": "trickstar",
+    "averageRating": 0.7814814814814814,
+    "starter": 2,
+    "extender": 9
+  },
+  {
+    "name": "chaos",
+    "averageRating": 0.7807692307692305,
+    "starter": 11,
+    "extender": 21
+  },
+  {
+    "name": "ninja",
+    "averageRating": 0.7793103448275861,
+    "starter": 2,
+    "extender": 12
+  },
+  {
+    "name": "charmer",
+    "averageRating": 0.7727272727272727,
+    "starter": 5,
+    "extender": 0
+  },
+  {
+    "name": "blue-eyes",
+    "averageRating": 0.7666666666666667,
+    "starter": 1,
+    "extender": 2
+  },
+  { "name": "batteryman", "averageRating": 0.76, "starter": 2, "extender": 4 },
+  {
+    "name": "appliancer",
+    "averageRating": 0.7545454545454546,
+    "starter": 1,
+    "extender": 6
+  },
+  {
+    "name": "zw -",
+    "averageRating": 0.7538461538461539,
+    "starter": 2,
+    "extender": 10
+  },
+  {
+    "name": "battlin' boxer",
+    "averageRating": 0.7416666666666667,
+    "starter": 1,
+    "extender": 5
+  },
+  {
+    "name": "gogogo",
+    "averageRating": 0.7333333333333334,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "star seraph",
+    "averageRating": 0.7333333333333334,
+    "starter": 1,
+    "extender": 5
+  },
+  {
+    "name": "flower cardian",
+    "averageRating": 0.7294117647058824,
+    "starter": 0,
+    "extender": 12
+  },
+  { "name": "neo space", "averageRating": 0.725, "starter": 1, "extender": 2 },
+  {
+    "name": "chronomaly",
+    "averageRating": 0.7120000000000001,
+    "starter": 1,
+    "extender": 11
+  },
+  {
+    "name": "vampire",
+    "averageRating": 0.7033333333333333,
+    "starter": 5,
+    "extender": 11
+  },
+  {
+    "name": "valkyrie",
+    "averageRating": 0.7000000000000001,
+    "starter": 4,
+    "extender": 4
+  },
+  {
+    "name": "live☆twin",
+    "averageRating": 0.7000000000000001,
+    "starter": 1,
+    "extender": 0
+  },
+  {
+    "name": "zoodiac",
+    "averageRating": 0.6933333333333334,
+    "starter": 3,
+    "extender": 5
+  },
+  {
+    "name": "laval",
+    "averageRating": 0.6909090909090909,
+    "starter": 3,
+    "extender": 11
+  },
+  {
+    "name": "malefic",
+    "averageRating": 0.6833333333333333,
+    "starter": 5,
+    "extender": 10
+  },
+  { "name": "qli", "averageRating": 0.68125, "starter": 2, "extender": 0 },
+  {
+    "name": "igknight",
+    "averageRating": 0.676923076923077,
+    "starter": 0,
+    "extender": 1
+  },
+  {
+    "name": "majespecter",
+    "averageRating": 0.6749999999999999,
+    "starter": 3,
+    "extender": 0
+  },
+  {
+    "name": "junk",
+    "averageRating": 0.6681818181818182,
+    "starter": 0,
+    "extender": 7
+  },
+  {
+    "name": "roid",
+    "averageRating": 0.6557377049180327,
+    "starter": 6,
+    "extender": 17
+  },
+  {
+    "name": "metaphys",
+    "averageRating": 0.6545454545454544,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "void",
+    "averageRating": 0.6533333333333334,
+    "starter": 3,
+    "extender": 7
+  },
+  {
+    "name": "synchron",
+    "averageRating": 0.6476190476190476,
+    "starter": 1,
+    "extender": 7
+  },
+  {
+    "name": "koa'ki meiru",
+    "averageRating": 0.6464285714285715,
+    "starter": 3,
+    "extender": 24
+  },
+  {
+    "name": "magician",
+    "averageRating": 0.6448979591836733,
+    "starter": 13,
+    "extender": 26
+  },
+  {
+    "name": "blackwing",
+    "averageRating": 0.6425925925925925,
+    "starter": 2,
+    "extender": 19
+  },
+  { "name": "graydle", "averageRating": 0.64, "starter": 1, "extender": 1 },
+  {
+    "name": "numeron",
+    "averageRating": 0.6333333333333333,
+    "starter": 1,
+    "extender": 1
+  },
+  {
+    "name": "cyber",
+    "averageRating": 0.6311688311688309,
+    "starter": 14,
+    "extender": 25
+  },
+  {
+    "name": "photon",
+    "averageRating": 0.6195121951219511,
+    "starter": 7,
+    "extender": 17
+  },
+  {
+    "name": "madolche",
+    "averageRating": 0.6185185185185186,
+    "starter": 5,
+    "extender": 6
+  },
+  {
+    "name": "sunavalon",
+    "averageRating": 0.6142857142857142,
+    "starter": 2,
+    "extender": 1
+  },
+  {
+    "name": "prophecy",
+    "averageRating": 0.6117647058823529,
+    "starter": 4,
+    "extender": 5
+  },
+  {
+    "name": "nordic",
+    "averageRating": 0.6095238095238096,
+    "starter": 2,
+    "extender": 8
+  },
+  {
+    "name": "six samurai",
+    "averageRating": 0.603125,
+    "starter": 3,
+    "extender": 14
+  },
+  {
+    "name": "mecha phantom beast",
+    "averageRating": 0.5947368421052632,
+    "starter": 1,
+    "extender": 6
+  },
+  {
+    "name": "melodious",
+    "averageRating": 0.588888888888889,
+    "starter": 1,
+    "extender": 5
+  },
+  {
+    "name": "sky striker ace",
+    "averageRating": 0.5875,
+    "starter": 2,
+    "extender": 1
+  },
+  {
+    "name": "penguin",
+    "averageRating": 0.5857142857142856,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "darkness",
+    "averageRating": 0.5851063829787234,
+    "starter": 4,
+    "extender": 19
+  },
+  {
+    "name": "constellar",
+    "averageRating": 0.576923076923077,
+    "starter": 3,
+    "extender": 9
+  },
+  {
+    "name": "archfiend",
+    "averageRating": 0.5727272727272726,
+    "starter": 8,
+    "extender": 14
+  },
+  {
+    "name": "inzektor",
+    "averageRating": 0.5684210526315789,
+    "starter": 2,
+    "extender": 11
+  },
+  {
+    "name": "ice barrier",
+    "averageRating": 0.565,
+    "starter": 4,
+    "extender": 12
+  },
+  {
+    "name": "fire formation",
+    "averageRating": 0.5636363636363636,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "galaxy",
+    "averageRating": 0.5636363636363636,
+    "starter": 3,
+    "extender": 5
+  },
+  {
+    "name": "white",
+    "averageRating": 0.5636363636363635,
+    "starter": 6,
+    "extender": 23
+  },
+  {
+    "name": "gem-",
+    "averageRating": 0.5599999999999999,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "ghostrick",
+    "averageRating": 0.5551724137931034,
+    "starter": 4,
+    "extender": 5
+  },
+  {
+    "name": "crystal beast",
+    "averageRating": 0.5428571428571428,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "the agent",
+    "averageRating": 0.5428571428571428,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "the winged dragon of ra",
+    "averageRating": 0.54,
+    "starter": 1,
+    "extender": 2
+  },
+  {
+    "name": "harpie",
+    "averageRating": 0.535483870967742,
+    "starter": 4,
+    "extender": 4
+  },
+  {
+    "name": "evoltile",
+    "averageRating": 0.5333333333333333,
+    "starter": 2,
+    "extender": 4
+  },
+  {
+    "name": "cat",
+    "averageRating": 0.5277227722772277,
+    "starter": 10,
+    "extender": 29
+  },
+  {
+    "name": "prediction princess",
+    "averageRating": 0.5199999999999999,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "ritual beast",
+    "averageRating": 0.511764705882353,
+    "starter": 2,
+    "extender": 5
+  },
+  {
+    "name": "frightfur",
+    "averageRating": 0.5076923076923077,
+    "starter": 2,
+    "extender": 5
+  },
+  { "name": "invoked", "averageRating": 0.5, "starter": 0, "extender": 2 },
+  {
+    "name": "raviel, lord of phantasms",
+    "averageRating": 0.5,
+    "starter": 0,
+    "extender": 1
+  },
+  {
+    "name": "parshath",
+    "averageRating": 0.4857142857142857,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "cipher",
+    "averageRating": 0.48000000000000004,
+    "starter": 1,
+    "extender": 4
+  },
+  {
+    "name": "shaman",
+    "averageRating": 0.47500000000000003,
+    "starter": 0,
+    "extender": 7
+  },
+  {
+    "name": "gagaga",
+    "averageRating": 0.4739130434782609,
+    "starter": 1,
+    "extender": 7
+  },
+  {
+    "name": "geargia",
+    "averageRating": 0.46666666666666673,
+    "starter": 2,
+    "extender": 3
+  },
+  {
+    "name": "atlantean",
+    "averageRating": 0.4666666666666667,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "duston",
+    "averageRating": 0.46249999999999997,
+    "starter": 3,
+    "extender": 2
+  },
+  {
+    "name": "crystal",
+    "averageRating": 0.45652173913043487,
+    "starter": 4,
+    "extender": 4
+  },
+  {
+    "name": "heroic",
+    "averageRating": 0.45499999999999996,
+    "starter": 2,
+    "extender": 5
+  },
+  {
+    "name": "scrap",
+    "averageRating": 0.45428571428571435,
+    "starter": 6,
+    "extender": 5
+  },
+  {
+    "name": "ancient gear",
+    "averageRating": 0.4499999999999999,
+    "starter": 5,
+    "extender": 9
+  },
+  { "name": "magnet", "averageRating": 0.445, "starter": 2, "extender": 9 },
+  {
+    "name": "lightsworn",
+    "averageRating": 0.4423076923076923,
+    "starter": 4,
+    "extender": 4
+  },
+  {
+    "name": "flamvell",
+    "averageRating": 0.44117647058823534,
+    "starter": 3,
+    "extender": 4
+  },
+  {
+    "name": "earthbound immortal",
+    "averageRating": 0.44000000000000006,
+    "starter": 0,
+    "extender": 0
+  },
+  {
+    "name": "necrovalley",
+    "averageRating": 0.44000000000000006,
+    "starter": 1,
+    "extender": 1
+  },
+  {
+    "name": "spellbook",
+    "averageRating": 0.43529411764705883,
+    "starter": 6,
+    "extender": 4
+  },
+  {
+    "name": "ojama",
+    "averageRating": 0.43499999999999994,
+    "starter": 1,
+    "extender": 7
+  },
+  {
+    "name": "naturia",
+    "averageRating": 0.4314285714285715,
+    "starter": 1,
+    "extender": 10
+  },
+  {
+    "name": "reptilianne",
+    "averageRating": 0.42142857142857143,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "dododo",
+    "averageRating": 0.4166666666666667,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "fabled",
+    "averageRating": 0.4161290322580645,
+    "starter": 4,
+    "extender": 9
+  },
+  {
+    "name": "forest",
+    "averageRating": 0.40882352941176475,
+    "starter": 3,
+    "extender": 6
+  },
+  {
+    "name": "infernity",
+    "averageRating": 0.39999999999999997,
+    "starter": 2,
+    "extender": 9
+  },
+  {
+    "name": "shining",
+    "averageRating": 0.391304347826087,
+    "starter": 1,
+    "extender": 3
+  },
+  {
+    "name": "warrior",
+    "averageRating": 0.3885416666666666,
+    "starter": 4,
+    "extender": 25
+  },
+  {
+    "name": "gusto",
+    "averageRating": 0.3851851851851852,
+    "starter": 2,
+    "extender": 8
+  },
+  {
+    "name": "number",
+    "averageRating": 0.38152866242038186,
+    "starter": 3,
+    "extender": 15
+  },
+  {
+    "name": "dark world",
+    "averageRating": 0.37826086956521743,
+    "starter": 3,
+    "extender": 10
+  },
+  {
+    "name": "hero",
+    "averageRating": 0.3742514970059879,
+    "starter": 14,
+    "extender": 34
+  },
+  {
+    "name": "monarch",
+    "averageRating": 0.36774193548387096,
+    "starter": 4,
+    "extender": 6
+  },
+  {
+    "name": "lswarm",
+    "averageRating": 0.3657142857142857,
+    "starter": 1,
+    "extender": 5
+  },
+  {
+    "name": "volcanic",
+    "averageRating": 0.36428571428571427,
+    "starter": 2,
+    "extender": 5
+  },
+  {
+    "name": "nimble",
+    "averageRating": 0.36249999999999993,
+    "starter": 2,
+    "extender": 0
+  },
+  {
+    "name": "alien",
+    "averageRating": 0.3611111111111111,
+    "starter": 0,
+    "extender": 5
+  },
+  {
+    "name": "dark scorpion",
+    "averageRating": 0.35,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "red-eyes",
+    "averageRating": 0.3470588235294118,
+    "starter": 2,
+    "extender": 7
+  },
+  {
+    "name": "amazoness",
+    "averageRating": 0.34615384615384615,
+    "starter": 2,
+    "extender": 5
+  },
+  {
+    "name": "morphtronic",
+    "averageRating": 0.33448275862068966,
+    "starter": 3,
+    "extender": 9
+  },
+  {
+    "name": "evil★twin",
+    "averageRating": 0.3333333333333333,
+    "starter": 0,
+    "extender": 0
+  },
+  {
+    "name": "djinn",
+    "averageRating": 0.32857142857142857,
+    "starter": 0,
+    "extender": 6
+  },
+  {
+    "name": "toon",
+    "averageRating": 0.32799999999999996,
+    "starter": 3,
+    "extender": 9
+  },
+  {
+    "name": "sky striker",
+    "averageRating": 0.3272727272727272,
+    "starter": 2,
+    "extender": 1
+  },
+  {
+    "name": "fortune lady",
+    "averageRating": 0.32,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "gravekeeper's",
+    "averageRating": 0.3185185185185185,
+    "starter": 3,
+    "extender": 2
+  },
+  {
+    "name": "dark magician",
+    "averageRating": 0.31428571428571433,
+    "starter": 3,
+    "extender": 7
+  },
+  { "name": "utopia", "averageRating": 0.3, "starter": 0, "extender": 1 },
+  {
+    "name": "vylon",
+    "averageRating": 0.2961538461538462,
+    "starter": 6,
+    "extender": 0
+  },
+  {
+    "name": "gem-knight",
+    "averageRating": 0.29615384615384616,
+    "starter": 2,
+    "extender": 5
+  },
+  {
+    "name": "ninjitsu art",
+    "averageRating": 0.2916666666666667,
+    "starter": 0,
+    "extender": 4
+  },
+  {
+    "name": "frog",
+    "averageRating": 0.27499999999999997,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "gladiator beast",
+    "averageRating": 0.27209302325581397,
+    "starter": 4,
+    "extender": 8
+  },
+  {
+    "name": "x-saber",
+    "averageRating": 0.2523809523809524,
+    "starter": 2,
+    "extender": 5
+  },
+  { "name": "hazy", "averageRating": 0.25, "starter": 0, "extender": 1 },
+  {
+    "name": "wind-up",
+    "averageRating": 0.24761904761904763,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "fusion",
+    "averageRating": 0.24305555555555555,
+    "starter": 4,
+    "extender": 22
+  },
+  { "name": "saber", "averageRating": 0.24, "starter": 1, "extender": 1 },
+  {
+    "name": "worm",
+    "averageRating": 0.23684210526315788,
+    "starter": 2,
+    "extender": 7
+  },
+  {
+    "name": "rebellion",
+    "averageRating": 0.2333333333333333,
+    "starter": 0,
+    "extender": 0
+  },
+  {
+    "name": "cloudian",
+    "averageRating": 0.2285714285714286,
+    "starter": 0,
+    "extender": 4
+  },
+  {
+    "name": "karakuri",
+    "averageRating": 0.22142857142857145,
+    "starter": 2,
+    "extender": 2
+  },
+  {
+    "name": "genex",
+    "averageRating": 0.2181818181818182,
+    "starter": 3,
+    "extender": 5
+  },
+  {
+    "name": "watt",
+    "averageRating": 0.2178571428571429,
+    "starter": 2,
+    "extender": 1
+  },
+  { "name": "venom", "averageRating": 0.2, "starter": 1, "extender": 1 },
+  {
+    "name": "neos",
+    "averageRating": 0.19999999999999998,
+    "starter": 1,
+    "extender": 1
+  },
+  {
+    "name": "ally of justice",
+    "averageRating": 0.19473684210526318,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "arcana force",
+    "averageRating": 0.19090909090909092,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "z-one",
+    "averageRating": 0.18888888888888888,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "gishki",
+    "averageRating": 0.1846153846153846,
+    "starter": 5,
+    "extender": 0
+  },
+  {
+    "name": "mist valley",
+    "averageRating": 0.17500000000000002,
+    "starter": 0,
+    "extender": 2
+  },
+  {
+    "name": "zubaba",
+    "averageRating": 0.16666666666666666,
+    "starter": 0,
+    "extender": 1
+  },
+  {
+    "name": "goblin",
+    "averageRating": 0.15172413793103445,
+    "starter": 1,
+    "extender": 2
+  },
+  {
+    "name": "mirror force",
+    "averageRating": 0.13999999999999999,
+    "starter": 1,
+    "extender": 1
+  },
+  {
+    "name": "phantom beast",
+    "averageRating": 0.13999999999999999,
+    "starter": 0,
+    "extender": 1
+  },
+  {
+    "name": "jurrac",
+    "averageRating": 0.13157894736842105,
+    "starter": 0,
+    "extender": 3
+  },
+  {
+    "name": "celtic guard",
+    "averageRating": 0.08333333333333333,
+    "starter": 0,
+    "extender": 1
+  },
+  {
+    "name": "majestic",
+    "averageRating": 0.07272727272727274,
+    "starter": 0,
+    "extender": 0
+  }
+]
