@@ -23,6 +23,7 @@ export interface CardItem {
   floodgate?: boolean;
   tcgRelease?: string;
   generic?: boolean;
+  rarity: string;
 }
 
 export interface ObtainItem {
@@ -77,6 +78,7 @@ export type Meta = {
   decktypes: string[];
   rating: number;
   archetype: string;
+  rarity: number;
 };
 
 export type Archetype = {

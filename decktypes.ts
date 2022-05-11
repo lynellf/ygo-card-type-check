@@ -1,6 +1,8 @@
 import cards from "./cards.ts";
-import { pipeable } from "https://cdn.skypack.dev/fp-ts";
 import type { CardItem } from "./types.ts";
+import { fpts } from "./utils/modules.ts";
+
+const { pipeable } = fpts;
 
 const asSet = <T>(iterable: Iterable<T>) => new Set([...iterable]);
 const asArr = <T>(iterable: Iterable<T>) => [...iterable];

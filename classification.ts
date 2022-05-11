@@ -1,18 +1,56 @@
 import cards from "./cards.ts";
 import archetypes from "./archetypes.ts";
-import { array, pipeable } from "https://cdn.skypack.dev/fp-ts";
+import { fpts } from "./utils/modules.ts";
 import * as phrases from "./phrases.ts";
 import type { CardItem, ClassifiedCard as Card } from "./types.ts";
+import {
+  TYPE_BURN,
+  TYPE_EXTENDER,
+  TYPE_FLOATER,
+  TYPE_FLOODGATE,
+  TYPE_IMMUNITY,
+  TYPE_INTERRUPT,
+  TYPE_REMOVAL,
+  TYPE_STARTER,
+} from "./utils/common.ts";
+
+const typesWithPhrases = [
+  {
+    type: TYPE_BURN,
+    phrases: phrases.burnPhrases,
+  },
+  {
+    type: TYPE_EXTENDER,
+    phrases: phrases.extenderPhrases,
+  },
+  {
+    type: TYPE_FLOATER,
+    phrases: phrases.floaterPhrases,
+  },
+  {
+    type: TYPE_IMMUNITY,
+    phrases: phrases.immunityPhrases,
+  },
+  {
+    type: TYPE_INTERRUPT,
+    phrases: phrases.interruptPhrases,
+  },
+  {
+    type: TYPE_REMOVAL,
+    phrases: phrases.removalPhrases,
+  },
+  {
+    type: TYPE_STARTER,
+    phrases: phrases.starterPhrases,
+  },
+];
+
+type Phrases = typeof typesWithPhrases;
+
+const { array, pipeable } = fpts;
 
 const { pipe } = pipeable;
 const { map, sort } = array;
-
-const TYPE_STARTER = "starter";
-const TYPE_EXTENDER = "extender";
-const TYPE_INTERRUPT = "interrupt";
-const TYPE_FLOATER = "floater";
-const TYPE_FLOODGATE = "floodgate";
-const TYPE_BURN = "burn";
 
 const applyArchetype = (archetypes: string[]) =>
   (card: Card): Card => {
@@ -45,17 +83,28 @@ const checkClauses = (phrases: string[], type: string) =>
     };
   };
 
-const phraseCheck = (phrases: string[], type: string) =>
-  (card: Card): Card => {
+const addType = (card: Card) =>
+  (
+    output: Record<string, number>,
+    { type, phrases }: Phrases[number],
+  ) => {
     const hasPhrase = phrases.some((phrase) =>
       card.text.toLowerCase().includes(phrase)
     );
+
+    return {
+      ...output,
+      [type]: hasPhrase ? 1 : 0,
+    };
+  };
+
+const applyTypes = (phrases: Phrases) =>
+  (card: Card): Card => {
+    const types = phrases.reduce(addType(card), {} as Record<string, number>);
+
     return {
       ...card,
-      types: {
-        ...card.types,
-        [type]: hasPhrase ? 1 : 0,
-      },
+      types,
     };
   };
 
@@ -85,9 +134,11 @@ const rateTypes = (card: Card): Card => {
       [TYPE_FLOATER]: 0.3,
       [TYPE_FLOODGATE]: 0.8,
       [TYPE_BURN]: 0.2,
+      [TYPE_REMOVAL]: 0.6,
+      [TYPE_IMMUNITY]: 0.7,
     };
-
-    return total + scoreBy[type] * value;
+    const rating = total + scoreBy[type] * value;
+    return !isNaN(rating) ? rating : 0;
   }, 0);
 
   return {
@@ -98,88 +149,56 @@ const rateTypes = (card: Card): Card => {
     },
   };
 };
-
-const rateSpeed = (card: Card): Card => {
-  const { text, meta } = card;
-  const { monster: { types }, rating } = meta;
-  const lowerText = `${text}`.toLowerCase();
-  const lowerType = `${types.join(", ")}`.toLowerCase();
-  const isPendulum = lowerType.includes("pendulum");
-  const fastPhrases = [
-    // 'special summon 1',
-    // 'special summon 2',
-    // 'special summon 3',
-    // 'special summon 4',
-    // 'special summon 5',
-    // 'special summon as many',
-    "you can special summon this card",
-    "in addition to your",
-  ];
-  const slowPhrases = ["or destroy this card", "you can only use"];
-  const canSpecialSummon = checkPhrases(fastPhrases, lowerText);
-  const isSlow = checkPhrases(slowPhrases, lowerText);
-  const speedCount = [
-    { value: isPendulum, rating: 0.2 },
-    { value: canSpecialSummon, rating: 0.9 },
-    { value: isSlow, rating: -0.3 },
-  ].filter((item) => item.value);
-  const hasCount = speedCount.length > 0;
-  const speedTotal = hasCount
-    ? speedCount.reduce((sum, item) => sum + item.rating, 0) / speedCount.length
-    : 0;
+const formatData = (c: CardItem): Card => {
+  const isMonster = c.monsterType.length > 0;
+  const rarities = new Map([
+    ["N", 1],
+    ["R", 2],
+    ["SR", 3],
+    ["UR", 4],
+  ]);
 
   return {
-    ...card,
+    name: c.name,
+    text: c.description,
+    types: {
+      [TYPE_STARTER]: 0,
+      [TYPE_EXTENDER]: 0,
+      [TYPE_INTERRUPT]: 0,
+      [TYPE_FLOATER]: 0,
+      [TYPE_FLOODGATE]: 0,
+      [TYPE_BURN]: 0,
+      [TYPE_IMMUNITY]: 0,
+      [TYPE_REMOVAL]: 0,
+    },
     meta: {
-      ...meta,
-      rating: speedTotal + rating,
+      monster: {
+        types: c.monsterType,
+        race: isMonster ? c.race : "",
+        attribute: "",
+        atk: 0,
+        def: 0,
+      },
+      other: {
+        type: !isMonster ? c.type : "",
+        kind: !isMonster ? c.race : "",
+      },
+      decktypes: c.deckTypes,
+      rating: 0,
+      archetype: "",
+      rarity: rarities.get(c.rarity) ?? 1,
     },
   };
 };
 
-const formatData = (c: CardItem): Card => ({
-  name: c.name,
-  text: c.description,
-  types: {
-    [TYPE_STARTER]: 0,
-    [TYPE_EXTENDER]: 0,
-    [TYPE_INTERRUPT]: 0,
-    [TYPE_FLOATER]: 0,
-    [TYPE_FLOODGATE]: 0,
-    [TYPE_BURN]: 0,
-  },
-  meta: {
-    monster: {
-      types: c.monsterType,
-      race: c.monsterType.length > 0 ? c.race : "",
-      attribute: "",
-      atk: 0,
-      def: 0,
-    },
-    other: {
-      type: c.monsterType.length === 0 ? c.type : "",
-      kind: c.monsterType.length === 0 ? c.race : "",
-    },
-    decktypes: c.deckTypes,
-    rating: 0,
-    archetype: "",
-  },
-});
-
 const classifiedCards: Card[] = pipe(
   cards,
   map(formatData),
-  map(phraseCheck(phrases.starterPhrases, TYPE_STARTER)),
-  map(phraseCheck(phrases.extenderPhrases, TYPE_EXTENDER)),
-  map(phraseCheck(phrases.interruptPhrases, TYPE_INTERRUPT)),
-  map(phraseCheck(phrases.burnPhrases, TYPE_BURN)),
-  map(phraseCheck(phrases.floaterPhrases, TYPE_FLOATER)),
-  map(phraseCheck(phrases.floodgatePhrases, TYPE_FLOODGATE)),
+  map(applyTypes(typesWithPhrases)),
   map(checkClauses(phrases.floodgateClauses, TYPE_FLOODGATE)),
   map(compareTypes(TYPE_FLOATER, TYPE_STARTER)),
   map(applyArchetype(archetypes)),
   map(rateTypes),
-  map(rateSpeed),
   sort((a: Card, z: Card) => z.meta.rating - a.meta.rating),
   // filter((card) => card.meta.level <= 4)
 );
