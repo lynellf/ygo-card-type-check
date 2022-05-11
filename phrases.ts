@@ -39,6 +39,7 @@ export const floodgateClauses = [
 export const interruptPhrases = [
   "during either player's turn",
   "quick effect",
+  "you can activate this card from your hand",
 ];
 
 export const starterPhrases = [
@@ -47,4 +48,21 @@ export const starterPhrases = [
   "excavate",
   "hand, deck, or",
   "cards from your deck",
+  "of your deck",
+  "from your deck,",
+];
+
+export const removalPhrases = [
+  "card your opponent controls",
+  "cards your opponent controls",
+  "send all",
+  "banish all",
+  "destroy all",
+];
+
+export const immunityPhrases = [
+  "cannot be targeted",
+  "your opponent cannot target",
+  "cannot be destroyed",
+  "unaffected by",
 ];
